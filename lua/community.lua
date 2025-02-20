@@ -40,6 +40,6 @@ return {
   -- mouse hover support
   { import = "astrocommunity.utility.hover-nvim" },
   -- show suggest under the current line
-  { import = "astrocommunity.workflow.precognition-nvim" },
+  -- { import = "astrocommunity.workflow.precognition-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
 }
