@@ -88,12 +88,6 @@ map("v", "d", '"_d', defaultOptions)
 map("v", "x", '"_x', defaultOptions)
 map("v", "c", '"_c', defaultOptions)
 
--- copy at the first word
-map("n", "vw", "bvw", defaultOptions)
-map("n", "vW", "bvW", defaultOptions)
-map("n", "ve", "bve", defaultOptions)
-map("n", "vE", "bvE", defaultOptions)
-
 -- motion
 map("n", "<Tab>", ":+10<cr>", merge(defaultOptions, { desc = "Move 10 lines down" }))
 map("n", "<S-Tab>", function()
