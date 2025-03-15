@@ -112,3 +112,18 @@ map({ "n", "t" }, "<F8>", function()
   local terminalCount = #terminalList + 1
   vim.cmd(":" .. terminalCount .. "ToggleTerm")
 end, defaultOptions)
+
+if vim.g.vscode then
+  local vscode = require "vscode"
+  -- local vscode = require "vscode-neovim"
+  map(
+    { "n", "x", "i", "v" },
+    "<C-d>",
+    function()
+      vscode.with_insert(function() vscode.action "editor.action.addSelectionToNextFindMatch" end)
+    end,
+    merge(defaultOptions, {
+      desc = "Run ittttt",
+    })
+  )
+end
