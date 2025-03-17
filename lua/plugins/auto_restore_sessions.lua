@@ -1,6 +1,10 @@
 return {
   "AstroNvim/astrocore",
   ---@type AstroCoreOpts
+  cond = function()
+    if vim.g.vscode then return false end
+    return true
+  end,
   opts = {
     autocmds = {
       -- disable alpha autostart
