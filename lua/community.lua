@@ -5,7 +5,6 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   -- language packs
   { import = "astrocommunity.pack.lua" },
@@ -31,7 +30,6 @@ return {
   -- show indent rainbow
   { import = "astrocommunity.indent.indent-blankline-nvim" },
 
-  { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.recipes.auto-session-restore" },
 
@@ -43,4 +41,7 @@ return {
   -- { import = "astrocommunity.workflow.precognition-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.recipes.vscode" },
+
+  -- theme
+  { import = "astrocommunity.colorscheme.catppuccin" },
 }

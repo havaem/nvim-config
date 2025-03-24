@@ -115,7 +115,6 @@ end, defaultOptions)
 
 if vim.g.vscode then
   local vscode = require "vscode"
-  -- local vscode = require "vscode-neovim"
   map(
     { "n", "x", "i", "v" },
     "<C-d>",
@@ -123,7 +122,9 @@ if vim.g.vscode then
       vscode.with_insert(function() vscode.action "editor.action.addSelectionToNextFindMatch" end)
     end,
     merge(defaultOptions, {
-      desc = "Run ittttt",
+      desc = "VSCode intergration",
     })
   )
 end
+-- ctrl key map
+map("n", "<C-a>", "ggVG", merge(defaultOptions, { desc = "Select all text" }))
