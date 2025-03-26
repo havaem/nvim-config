@@ -1,6 +1,7 @@
+if not vim.g.vscode then return {} end
 return {
   "AstroNvim/astrocore",
-  ---@type AstroCoreOpts 
+  ---@type AstroCoreOpts
   opts = {
     autocmds = {
       -- disable alpha autostart
