@@ -42,7 +42,6 @@ return {
   -- show suggest under the current line
   -- { import = "astrocommunity.workflow.precognition-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
-  { import = "astrocommunity.recipes.vscode" },
 
   -- theme
   { import = "astrocommunity.colorscheme.catppuccin" },
