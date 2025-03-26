@@ -34,6 +34,8 @@ return {
   { import = "astrocommunity.recipes.auto-session-restore" },
 
   { import = "astrocommunity.motion.flash-nvim" },
+
+  -- fast surround
   { import = "astrocommunity.motion.mini-surround" },
   -- mouse hover support
   { import = "astrocommunity.utility.hover-nvim" },
