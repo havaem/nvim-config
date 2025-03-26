@@ -70,13 +70,11 @@ return {
       maps.n["<Leader>c"] = "<Cmd>Tabclose<CR>"
       maps.n["<Leader>C"] = "<Cmd>Tabclose!<CR>"
       maps.n["<Leader>bp"] = "<Cmd>Tablast<CR>"
-      maps.n["<Leader>bc>"] = function() require("vscode-neovim").action "workbench.action.closeActiveEditor" end
       maps.n["<Leader>bc"] = function() require("vscode-neovim").action "workbench.action.closeActiveEditor" end
       maps.n["<Leader>bC"] = function() require("vscode-neovim").action "workbench.action.closeAllEditors" end
       maps.n["<Leader>bl"] = function() require("vscode-neovim").action "workbench.action.closeEditorsToTheLeft" end
       maps.n["<Leader>bp"] = function() require("vscode-neovim").action "workbench.action.previousEditor" end
       maps.n["<Leader>br"] = function() require("vscode-neovim").action "workbench.action.closeEditorsToTheRight" end
-      maps.n["<Leader>bC>"] = function() require("vscode-neovim").action "workbench.action.closeAllEditors" end
 
       -- file explorer
       maps.n["<Leader>e"] = function() require("vscode-neovim").action "workbench.files.action.focusFilesExplorer" end
