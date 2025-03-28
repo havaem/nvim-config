@@ -28,6 +28,7 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   "vim-repeat",
   "vim-sandwich",
   "yanky.nvim",
+  "matze/vim-move",
   -- feel free to open PRs to add more support!
 })
 
