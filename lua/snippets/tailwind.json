@@ -1,67 +1,4 @@
 {
-  "asd": {
-    "scope": "json",
-    "prefix": "colort",
-    "body": [
-      "//* $1",
-      "\"$1-50\": {",
-      "\"prefix\": \"$1-050\",",
-      "\"body\": \"$2\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-100\": {",
-      "\"prefix\": \"$1-100\",",
-      "\"body\": \"$3\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-200\": {",
-      "\"prefix\": \"$1-200\",",
-      "\"body\": \"$4\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-300\": {",
-      "\"prefix\": \"$1-300\",",
-      "\"body\": \"$5\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-400\": {",
-      "\"prefix\": \"$1-400\",",
-      "\"body\": \"$6\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-500\": {",
-      "\"prefix\": \"$1-500\",",
-      "\"body\": \"$7\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-600\": {",
-      "\"prefix\": \"$1-600\",",
-      "\"body\": \"$8\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-700\": {",
-      "\"prefix\": \"$1-700\",",
-      "\"body\": \"$9\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-800\": {",
-      "\"prefix\": \"$1-800\",",
-      "\"body\": \"$10\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-900\": {",
-      "\"prefix\": \"$1-900\",",
-      "\"body\": \"$11\",",
-      "\"description\": \"Tailwind Color\"",
-      "},",
-      "\"$1-950\": {",
-      "\"prefix\": \"$1-950\",",
-      "\"body\": \"$12\",",
-      "\"description\": \"Tailwind Color\"",
-      "}"
-    ],
-    "description": "tailwind sp"
-  },
   "slate-50": {
     "prefix": "slate-050",
     "body": "#f8fafc",
@@ -354,12 +291,12 @@
   },
   "red-300": {
     "prefix": "red-300",
-    "body": "#f87171",
+    "body": "#fca5a5",
     "description": "Tailwind Color"
   },
   "red-400": {
     "prefix": "red-400",
-    "body": "#ef4444",
+    "body": "#f87171",
     "description": "Tailwind Color"
   },
   "red-500": {
@@ -779,57 +716,57 @@
   },
   "cyan-50": {
     "prefix": "cyan-050",
-    "body": "#f0fdfa",
+    "body": "#ecfeff",
     "description": "Tailwind Color"
   },
   "cyan-100": {
     "prefix": "cyan-100",
-    "body": "#ccfbf1",
+    "body": "#cffafe",
     "description": "Tailwind Color"
   },
   "cyan-200": {
     "prefix": "cyan-200",
-    "body": "#99f6e4",
+    "body": "#a5f3fc",
     "description": "Tailwind Color"
   },
   "cyan-300": {
     "prefix": "cyan-300",
-    "body": "#5eead4",
+    "body": "#67e8f9",
     "description": "Tailwind Color"
   },
   "cyan-400": {
     "prefix": "cyan-400",
-    "body": "#2dd4bf",
+    "body": "#22d3ee",
     "description": "Tailwind Color"
   },
   "cyan-500": {
     "prefix": "cyan-500",
-    "body": "#14b8a6",
+    "body": "#06b6d4",
     "description": "Tailwind Color"
   },
   "cyan-600": {
     "prefix": "cyan-600",
-    "body": "#0d9488",
+    "body": "#0891b2",
     "description": "Tailwind Color"
   },
   "cyan-700": {
     "prefix": "cyan-700",
-    "body": "#0f766e",
+    "body": "#0e7490",
     "description": "Tailwind Color"
   },
   "cyan-800": {
     "prefix": "cyan-800",
-    "body": "#115e59",
+    "body": "#155e75",
     "description": "Tailwind Color"
   },
   "cyan-900": {
     "prefix": "cyan-900",
-    "body": "#134e4a",
+    "body": "#164e63",
     "description": "Tailwind Color"
   },
   "cyan-950": {
     "prefix": "cyan-950",
-    "body": "#042f2e",
+    "body": "#083344",
     "description": "Tailwind Color"
   },
   "sky-50": {
