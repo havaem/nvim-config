@@ -1,6 +1,6 @@
 # Havaem's Neovim Template
 
-**NOTE:** This is for AstroNvim v4+
+**NOTE:** This is for AstroNvim v5+
 
 ## 🛠️ Installation
 
@@ -15,8 +15,16 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 
 #### Clone the repository
 
+- https
+
 ```shell
 git clone https://github.com/havaem/nvim-config ~/.config/nvim
+```
+
+- ssh
+
+```shell
+git clone git@github.com:havaem/nvim-config.git ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -36,7 +44,7 @@ nvim
 | `<S-Tab>`        | Mode 10 lines up              | Normal          |
 | `<C-b>`          | Move to beginning of the line | Insert          |
 | `<C-e>`          | Move to end of the line       | Insert          |
-| `<C-${h-j-k-l}>` | Move by direction             | Insert          |
+| `<A-${h-j-k-l}>` | Move by direction             | Insert          |
 | `<A-q>`          | Escape terminal mode          | Terminal        |
 | `<F7>`           | Open new terminal             | Terminal        |
 | `<F8>`           | Open another terminal         | Terminal        |

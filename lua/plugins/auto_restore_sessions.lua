@@ -4,8 +4,6 @@ return {
   ---@type AstroCoreOpts
   opts = {
     autocmds = {
-      -- disable alpha autostart
-      alpha_autostart = false,
       restore_session = {
         {
           event = "VimEnter",
