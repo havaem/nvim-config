@@ -31,8 +31,6 @@ return {
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   -- Git blame
   { import = "astrocommunity.git.git-blame-nvim" },
-  -- show indent rainbow
-  { import = "astrocommunity.indent.indent-blankline-nvim" },
   -- show only in current line
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
 
