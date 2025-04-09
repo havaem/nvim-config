@@ -1,0 +1,46 @@
+{
+  "querySelector": {
+    "prefix": "dom.querySelector",
+    "body": [
+      "document.querySelector(\"$1\")"
+    ],
+    "description": "Query selector"
+  },
+  "querySelectorAll": {
+    "prefix": "dom.querySelectorAll",
+    "body": [
+      "document.querySelectorAll(\"$1\")"
+    ],
+    "description": "Query selector"
+  },
+  "getElementByID": {
+    "prefix": "dom.getElementById",
+    "body": [
+      "document.getElementById(\"$1\")"
+    ],
+    "description": "getElementByID"
+  },
+  "getElementsByClassName": {
+    "prefix": "dom.getElementsByClassName",
+    "body": [
+      "document.getElementsByClassName(\"$1\")"
+    ],
+    "description": "getElementsByClassName"
+  },
+  "getElementsByTagName": {
+    "prefix": "dom.getElementsByTagName",
+    "body": [
+      "document.getElementsByTagName(\"$1\")"
+    ],
+    "description": "getElementsByTagName"
+  },
+  "Ready": {
+    "prefix": "ready",
+    "body": [
+      "window.addEventListener('DOMContentLoaded',function () {",
+      " $1",
+      "});"
+    ],
+    "description": "Ready"
+  }
+}

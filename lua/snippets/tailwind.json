@@ -1,0 +1,1212 @@
+{
+  "slate-50": {
+    "prefix": "slate-050",
+    "body": "#f8fafc",
+    "description": "Tailwind Color"
+  },
+  "slate-100": {
+    "prefix": "slate-100",
+    "body": "#f1f5f9",
+    "description": "Tailwind Color"
+  },
+  "slate-200": {
+    "prefix": "slate-200",
+    "body": "#e2e8f0",
+    "description": "Tailwind Color"
+  },
+  "slate-300": {
+    "prefix": "slate-300",
+    "body": "#cbd5e1",
+    "description": "Tailwind Color"
+  },
+  "slate-400": {
+    "prefix": "slate-400",
+    "body": "#94a3b8",
+    "description": "Tailwind Color"
+  },
+  "slate-500": {
+    "prefix": "slate-500",
+    "body": "#64748b",
+    "description": "Tailwind Color"
+  },
+  "slate-600": {
+    "prefix": "slate-600",
+    "body": "#475569",
+    "description": "Tailwind Color"
+  },
+  "slate-700": {
+    "prefix": "slate-700",
+    "body": "#334155",
+    "description": "Tailwind Color"
+  },
+  "slate-800": {
+    "prefix": "slate-800",
+    "body": "#1e293b",
+    "description": "Tailwind Color"
+  },
+  "slate-900": {
+    "prefix": "slate-900",
+    "body": "#0f172a",
+    "description": "Tailwind Color"
+  },
+  "slate-950": {
+    "prefix": "slate-950",
+    "body": "#020617",
+    "description": "Tailwind Color"
+  },
+  "gray-50": {
+    "prefix": "gray-050",
+    "body": "#f9fafb",
+    "description": "Tailwind Color"
+  },
+  "gray-100": {
+    "prefix": "gray-100",
+    "body": "#f3f4f6",
+    "description": "Tailwind Color"
+  },
+  "gray-200": {
+    "prefix": "gray-200",
+    "body": "#e5e7eb",
+    "description": "Tailwind Color"
+  },
+  "gray-300": {
+    "prefix": "gray-300",
+    "body": "#d1d5db",
+    "description": "Tailwind Color"
+  },
+  "gray-400": {
+    "prefix": "gray-400",
+    "body": "#9ca3af",
+    "description": "Tailwind Color"
+  },
+  "gray-500": {
+    "prefix": "gray-500",
+    "body": "#6b7280",
+    "description": "Tailwind Color"
+  },
+  "gray-600": {
+    "prefix": "gray-600",
+    "body": "#4b5563",
+    "description": "Tailwind Color"
+  },
+  "gray-700": {
+    "prefix": "gray-700",
+    "body": "#374151",
+    "description": "Tailwind Color"
+  },
+  "gray-800": {
+    "prefix": "gray-800",
+    "body": "#1f2937",
+    "description": "Tailwind Color"
+  },
+  "gray-900": {
+    "prefix": "gray-900",
+    "body": "#111827",
+    "description": "Tailwind Color"
+  },
+  "gray-950": {
+    "prefix": "gray-950",
+    "body": "#030712",
+    "description": "Tailwind Color"
+  },
+  "zinc-50": {
+    "prefix": "zinc-050",
+    "body": "#fafafa",
+    "description": "Tailwind Color"
+  },
+  "zinc-100": {
+    "prefix": "zinc-100",
+    "body": "#f4f4f5",
+    "description": "Tailwind Color"
+  },
+  "zinc-200": {
+    "prefix": "zinc-200",
+    "body": "#e4e4e7",
+    "description": "Tailwind Color"
+  },
+  "zinc-300": {
+    "prefix": "zinc-300",
+    "body": "#d4d4d8",
+    "description": "Tailwind Color"
+  },
+  "zinc-400": {
+    "prefix": "zinc-400",
+    "body": "#a1a1aa",
+    "description": "Tailwind Color"
+  },
+  "zinc-500": {
+    "prefix": "zinc-500",
+    "body": "#71717a",
+    "description": "Tailwind Color"
+  },
+  "zinc-600": {
+    "prefix": "zinc-600",
+    "body": "#52525b",
+    "description": "Tailwind Color"
+  },
+  "zinc-700": {
+    "prefix": "zinc-700",
+    "body": "#3f3f46",
+    "description": "Tailwind Color"
+  },
+  "zinc-800": {
+    "prefix": "zinc-800",
+    "body": "#27272a",
+    "description": "Tailwind Color"
+  },
+  "zinc-900": {
+    "prefix": "zinc-900",
+    "body": "#18181b",
+    "description": "Tailwind Color"
+  },
+  "zinc-950": {
+    "prefix": "zinc-950",
+    "body": "#09090b",
+    "description": "Tailwind Color"
+  },
+  "neutral-50": {
+    "prefix": "neutral-050",
+    "body": "#fafafa",
+    "description": "Tailwind Color"
+  },
+  "neutral-100": {
+    "prefix": "neutral-100",
+    "body": "#f5f5f5",
+    "description": "Tailwind Color"
+  },
+  "neutral-200": {
+    "prefix": "neutral-200",
+    "body": "#e5e5e5",
+    "description": "Tailwind Color"
+  },
+  "neutral-300": {
+    "prefix": "neutral-300",
+    "body": "#d4d4d4",
+    "description": "Tailwind Color"
+  },
+  "neutral-400": {
+    "prefix": "neutral-400",
+    "body": "#a3a3a3",
+    "description": "Tailwind Color"
+  },
+  "neutral-500": {
+    "prefix": "neutral-500",
+    "body": "#737373",
+    "description": "Tailwind Color"
+  },
+  "neutral-600": {
+    "prefix": "neutral-600",
+    "body": "#525252",
+    "description": "Tailwind Color"
+  },
+  "neutral-700": {
+    "prefix": "neutral-700",
+    "body": "#404040",
+    "description": "Tailwind Color"
+  },
+  "neutral-800": {
+    "prefix": "neutral-800",
+    "body": "#262626",
+    "description": "Tailwind Color"
+  },
+  "neutral-900": {
+    "prefix": "neutral-900",
+    "body": "#171717",
+    "description": "Tailwind Color"
+  },
+  "neutral-950": {
+    "prefix": "neutral-950",
+    "body": "#0a0a0a",
+    "description": "Tailwind Color"
+  },
+  "stone-50": {
+    "prefix": "stone-050",
+    "body": "#fafaf9",
+    "description": "Tailwind Color"
+  },
+  "stone-100": {
+    "prefix": "stone-100",
+    "body": "#f5f5f4",
+    "description": "Tailwind Color"
+  },
+  "stone-200": {
+    "prefix": "stone-200",
+    "body": "#e7e5e4",
+    "description": "Tailwind Color"
+  },
+  "stone-300": {
+    "prefix": "stone-300",
+    "body": "#d6d3d1",
+    "description": "Tailwind Color"
+  },
+  "stone-400": {
+    "prefix": "stone-400",
+    "body": "#a8a29e",
+    "description": "Tailwind Color"
+  },
+  "stone-500": {
+    "prefix": "stone-500",
+    "body": "#78716c",
+    "description": "Tailwind Color"
+  },
+  "stone-600": {
+    "prefix": "stone-600",
+    "body": "#57534e",
+    "description": "Tailwind Color"
+  },
+  "stone-700": {
+    "prefix": "stone-700",
+    "body": "#44403c",
+    "description": "Tailwind Color"
+  },
+  "stone-800": {
+    "prefix": "stone-800",
+    "body": "#292524",
+    "description": "Tailwind Color"
+  },
+  "stone-900": {
+    "prefix": "stone-900",
+    "body": "#1c1917",
+    "description": "Tailwind Color"
+  },
+  "stone-950": {
+    "prefix": "stone-950",
+    "body": "#0c0a09",
+    "description": "Tailwind Color"
+  },
+  "red-50": {
+    "prefix": "red-050",
+    "body": "#fef2f2",
+    "description": "Tailwind Color"
+  },
+  "red-100": {
+    "prefix": "red-100",
+    "body": "#fee2e2",
+    "description": "Tailwind Color"
+  },
+  "red-200": {
+    "prefix": "red-200",
+    "body": "#fecaca",
+    "description": "Tailwind Color"
+  },
+  "red-300": {
+    "prefix": "red-300",
+    "body": "#fca5a5",
+    "description": "Tailwind Color"
+  },
+  "red-400": {
+    "prefix": "red-400",
+    "body": "#f87171",
+    "description": "Tailwind Color"
+  },
+  "red-500": {
+    "prefix": "red-500",
+    "body": "#ef4444",
+    "description": "Tailwind Color"
+  },
+  "red-600": {
+    "prefix": "red-600",
+    "body": "#dc2626",
+    "description": "Tailwind Color"
+  },
+  "red-700": {
+    "prefix": "red-700",
+    "body": "#b91c1c",
+    "description": "Tailwind Color"
+  },
+  "red-800": {
+    "prefix": "red-800",
+    "body": "#991b1b",
+    "description": "Tailwind Color"
+  },
+  "red-900": {
+    "prefix": "red-900",
+    "body": "#7f1d1d",
+    "description": "Tailwind Color"
+  },
+  "red-950": {
+    "prefix": "red-950",
+    "body": "#450a0a",
+    "description": "Tailwind Color"
+  },
+  "orange-50": {
+    "prefix": "orange-050",
+    "body": "#fff7ed",
+    "description": "Tailwind Color"
+  },
+  "orange-100": {
+    "prefix": "orange-100",
+    "body": "#ffedd5",
+    "description": "Tailwind Color"
+  },
+  "orange-200": {
+    "prefix": "orange-200",
+    "body": "#fed7aa",
+    "description": "Tailwind Color"
+  },
+  "orange-300": {
+    "prefix": "orange-300",
+    "body": "#fdba74",
+    "description": "Tailwind Color"
+  },
+  "orange-400": {
+    "prefix": "orange-400",
+    "body": "#fb923c",
+    "description": "Tailwind Color"
+  },
+  "orange-500": {
+    "prefix": "orange-500",
+    "body": "#f97316",
+    "description": "Tailwind Color"
+  },
+  "orange-600": {
+    "prefix": "orange-600",
+    "body": "#ea580c",
+    "description": "Tailwind Color"
+  },
+  "orange-700": {
+    "prefix": "orange-700",
+    "body": "#c2410c",
+    "description": "Tailwind Color"
+  },
+  "orange-800": {
+    "prefix": "orange-800",
+    "body": "#9a3412",
+    "description": "Tailwind Color"
+  },
+  "orange-900": {
+    "prefix": "orange-900",
+    "body": "#7c2d12",
+    "description": "Tailwind Color"
+  },
+  "orange-950": {
+    "prefix": "orange-950",
+    "body": "#431407",
+    "description": "Tailwind Color"
+  },
+  "amber-50": {
+    "prefix": "amber-050",
+    "body": "#fffbeb",
+    "description": "Tailwind Color"
+  },
+  "amber-100": {
+    "prefix": "amber-100",
+    "body": "#fef3c7",
+    "description": "Tailwind Color"
+  },
+  "amber-200": {
+    "prefix": "amber-200",
+    "body": "#fde68a",
+    "description": "Tailwind Color"
+  },
+  "amber-300": {
+    "prefix": "amber-300",
+    "body": "#fcd34d",
+    "description": "Tailwind Color"
+  },
+  "amber-400": {
+    "prefix": "amber-400",
+    "body": "#fbbf24",
+    "description": "Tailwind Color"
+  },
+  "amber-500": {
+    "prefix": "amber-500",
+    "body": "#f59e0b",
+    "description": "Tailwind Color"
+  },
+  "amber-600": {
+    "prefix": "amber-600",
+    "body": "#d97706",
+    "description": "Tailwind Color"
+  },
+  "amber-700": {
+    "prefix": "amber-700",
+    "body": "#b45309",
+    "description": "Tailwind Color"
+  },
+  "amber-800": {
+    "prefix": "amber-800",
+    "body": "#92400e",
+    "description": "Tailwind Color"
+  },
+  "amber-900": {
+    "prefix": "amber-900",
+    "body": "#78350f",
+    "description": "Tailwind Color"
+  },
+  "amber-950": {
+    "prefix": "amber-950",
+    "body": "#451a03",
+    "description": "Tailwind Color"
+  },
+  "yellow-50": {
+    "prefix": "yellow-050",
+    "body": "#fefce8",
+    "description": "Tailwind Color"
+  },
+  "yellow-100": {
+    "prefix": "yellow-100",
+    "body": "#fef9c3",
+    "description": "Tailwind Color"
+  },
+  "yellow-200": {
+    "prefix": "yellow-200",
+    "body": "#fef08a",
+    "description": "Tailwind Color"
+  },
+  "yellow-300": {
+    "prefix": "yellow-300",
+    "body": "#fde047",
+    "description": "Tailwind Color"
+  },
+  "yellow-400": {
+    "prefix": "yellow-400",
+    "body": "#facc15",
+    "description": "Tailwind Color"
+  },
+  "yellow-500": {
+    "prefix": "yellow-500",
+    "body": "#eab308",
+    "description": "Tailwind Color"
+  },
+  "yellow-600": {
+    "prefix": "yellow-600",
+    "body": "#ca8a04",
+    "description": "Tailwind Color"
+  },
+  "yellow-700": {
+    "prefix": "yellow-700",
+    "body": "#a16207",
+    "description": "Tailwind Color"
+  },
+  "yellow-800": {
+    "prefix": "yellow-800",
+    "body": "#854d0e",
+    "description": "Tailwind Color"
+  },
+  "yellow-900": {
+    "prefix": "yellow-900",
+    "body": "#713f12",
+    "description": "Tailwind Color"
+  },
+  "yellow-950": {
+    "prefix": "yellow-950",
+    "body": "#422006",
+    "description": "Tailwind Color"
+  },
+  "lime-50": {
+    "prefix": "lime-050",
+    "body": "#f7fee7",
+    "description": "Tailwind Color"
+  },
+  "lime-100": {
+    "prefix": "lime-100",
+    "body": "#ecfccb",
+    "description": "Tailwind Color"
+  },
+  "lime-200": {
+    "prefix": "lime-200",
+    "body": "#d9f99d",
+    "description": "Tailwind Color"
+  },
+  "lime-300": {
+    "prefix": "lime-300",
+    "body": "#bef264",
+    "description": "Tailwind Color"
+  },
+  "lime-400": {
+    "prefix": "lime-400",
+    "body": "#a3e635",
+    "description": "Tailwind Color"
+  },
+  "lime-500": {
+    "prefix": "lime-500",
+    "body": "#84cc16",
+    "description": "Tailwind Color"
+  },
+  "lime-600": {
+    "prefix": "lime-600",
+    "body": "#65a30d",
+    "description": "Tailwind Color"
+  },
+  "lime-700": {
+    "prefix": "lime-700",
+    "body": "#4d7c0f",
+    "description": "Tailwind Color"
+  },
+  "lime-800": {
+    "prefix": "lime-800",
+    "body": "#3f6212",
+    "description": "Tailwind Color"
+  },
+  "lime-900": {
+    "prefix": "lime-900",
+    "body": "#365314",
+    "description": "Tailwind Color"
+  },
+  "lime-950": {
+    "prefix": "lime-950",
+    "body": "#1a2e05",
+    "description": "Tailwind Color"
+  },
+  "green-50": {
+    "prefix": "green-050",
+    "body": "#f0fdf4",
+    "description": "Tailwind Color"
+  },
+  "green-100": {
+    "prefix": "green-100",
+    "body": "#dcfce7",
+    "description": "Tailwind Color"
+  },
+  "green-200": {
+    "prefix": "green-200",
+    "body": "#bbf7d0",
+    "description": "Tailwind Color"
+  },
+  "green-300": {
+    "prefix": "green-300",
+    "body": "#86efac",
+    "description": "Tailwind Color"
+  },
+  "green-400": {
+    "prefix": "green-400",
+    "body": "#4ade80",
+    "description": "Tailwind Color"
+  },
+  "green-500": {
+    "prefix": "green-500",
+    "body": "#22c55e",
+    "description": "Tailwind Color"
+  },
+  "green-600": {
+    "prefix": "green-600",
+    "body": "#16a34a",
+    "description": "Tailwind Color"
+  },
+  "green-700": {
+    "prefix": "green-700",
+    "body": "#15803d",
+    "description": "Tailwind Color"
+  },
+  "green-800": {
+    "prefix": "green-800",
+    "body": "#166534",
+    "description": "Tailwind Color"
+  },
+  "green-900": {
+    "prefix": "green-900",
+    "body": "#14532d",
+    "description": "Tailwind Color"
+  },
+  "green-950": {
+    "prefix": "green-950",
+    "body": "#052e16",
+    "description": "Tailwind Color"
+  },
+  "emerald-50": {
+    "prefix": "emerald-050",
+    "body": "#ecfdf5",
+    "description": "Tailwind Color"
+  },
+  "emerald-100": {
+    "prefix": "emerald-100",
+    "body": "#d1fae5",
+    "description": "Tailwind Color"
+  },
+  "emerald-200": {
+    "prefix": "emerald-200",
+    "body": "#a7f3d0",
+    "description": "Tailwind Color"
+  },
+  "emerald-300": {
+    "prefix": "emerald-300",
+    "body": "#6ee7b7",
+    "description": "Tailwind Color"
+  },
+  "emerald-400": {
+    "prefix": "emerald-400",
+    "body": "#34d399",
+    "description": "Tailwind Color"
+  },
+  "emerald-500": {
+    "prefix": "emerald-500",
+    "body": "#10b981",
+    "description": "Tailwind Color"
+  },
+  "emerald-600": {
+    "prefix": "emerald-600",
+    "body": "#059669",
+    "description": "Tailwind Color"
+  },
+  "emerald-700": {
+    "prefix": "emerald-700",
+    "body": "#047857",
+    "description": "Tailwind Color"
+  },
+  "emerald-800": {
+    "prefix": "emerald-800",
+    "body": "#065f46",
+    "description": "Tailwind Color"
+  },
+  "emerald-900": {
+    "prefix": "emerald-900",
+    "body": "#064e3b",
+    "description": "Tailwind Color"
+  },
+  "emerald-950": {
+    "prefix": "emerald-950",
+    "body": "#022c22",
+    "description": "Tailwind Color"
+  },
+  "teal-50": {
+    "prefix": "teal-050",
+    "body": "#f0fdfa",
+    "description": "Tailwind Color"
+  },
+  "teal-100": {
+    "prefix": "teal-100",
+    "body": "#ccfbf1",
+    "description": "Tailwind Color"
+  },
+  "teal-200": {
+    "prefix": "teal-200",
+    "body": "#99f6e4",
+    "description": "Tailwind Color"
+  },
+  "teal-300": {
+    "prefix": "teal-300",
+    "body": "#5eead4",
+    "description": "Tailwind Color"
+  },
+  "teal-400": {
+    "prefix": "teal-400",
+    "body": "#2dd4bf",
+    "description": "Tailwind Color"
+  },
+  "teal-500": {
+    "prefix": "teal-500",
+    "body": "#14b8a6",
+    "description": "Tailwind Color"
+  },
+  "teal-600": {
+    "prefix": "teal-600",
+    "body": "#0d9488",
+    "description": "Tailwind Color"
+  },
+  "teal-700": {
+    "prefix": "teal-700",
+    "body": "#0f766e",
+    "description": "Tailwind Color"
+  },
+  "teal-800": {
+    "prefix": "teal-800",
+    "body": "#115e59",
+    "description": "Tailwind Color"
+  },
+  "teal-900": {
+    "prefix": "teal-900",
+    "body": "#134e4a",
+    "description": "Tailwind Color"
+  },
+  "teal-950": {
+    "prefix": "teal-950",
+    "body": "#042f2e",
+    "description": "Tailwind Color"
+  },
+  "cyan-50": {
+    "prefix": "cyan-050",
+    "body": "#ecfeff",
+    "description": "Tailwind Color"
+  },
+  "cyan-100": {
+    "prefix": "cyan-100",
+    "body": "#cffafe",
+    "description": "Tailwind Color"
+  },
+  "cyan-200": {
+    "prefix": "cyan-200",
+    "body": "#a5f3fc",
+    "description": "Tailwind Color"
+  },
+  "cyan-300": {
+    "prefix": "cyan-300",
+    "body": "#67e8f9",
+    "description": "Tailwind Color"
+  },
+  "cyan-400": {
+    "prefix": "cyan-400",
+    "body": "#22d3ee",
+    "description": "Tailwind Color"
+  },
+  "cyan-500": {
+    "prefix": "cyan-500",
+    "body": "#06b6d4",
+    "description": "Tailwind Color"
+  },
+  "cyan-600": {
+    "prefix": "cyan-600",
+    "body": "#0891b2",
+    "description": "Tailwind Color"
+  },
+  "cyan-700": {
+    "prefix": "cyan-700",
+    "body": "#0e7490",
+    "description": "Tailwind Color"
+  },
+  "cyan-800": {
+    "prefix": "cyan-800",
+    "body": "#155e75",
+    "description": "Tailwind Color"
+  },
+  "cyan-900": {
+    "prefix": "cyan-900",
+    "body": "#164e63",
+    "description": "Tailwind Color"
+  },
+  "cyan-950": {
+    "prefix": "cyan-950",
+    "body": "#083344",
+    "description": "Tailwind Color"
+  },
+  "sky-50": {
+    "prefix": "sky-050",
+    "body": "#f0f9ff",
+    "description": "Tailwind Color"
+  },
+  "sky-100": {
+    "prefix": "sky-100",
+    "body": "#e0f2fe",
+    "description": "Tailwind Color"
+  },
+  "sky-200": {
+    "prefix": "sky-200",
+    "body": "#bae6fd",
+    "description": "Tailwind Color"
+  },
+  "sky-300": {
+    "prefix": "sky-300",
+    "body": "#7dd3fc",
+    "description": "Tailwind Color"
+  },
+  "sky-400": {
+    "prefix": "sky-400",
+    "body": "#38bdf8",
+    "description": "Tailwind Color"
+  },
+  "sky-500": {
+    "prefix": "sky-500",
+    "body": "#0ea5e9",
+    "description": "Tailwind Color"
+  },
+  "sky-600": {
+    "prefix": "sky-600",
+    "body": "#0284c7",
+    "description": "Tailwind Color"
+  },
+  "sky-700": {
+    "prefix": "sky-700",
+    "body": "#0369a1",
+    "description": "Tailwind Color"
+  },
+  "sky-800": {
+    "prefix": "sky-800",
+    "body": "#075985",
+    "description": "Tailwind Color"
+  },
+  "sky-900": {
+    "prefix": "sky-900",
+    "body": "#0c4a6e",
+    "description": "Tailwind Color"
+  },
+  "sky-950": {
+    "prefix": "sky-950",
+    "body": "#082f49",
+    "description": "Tailwind Color"
+  },
+  "blue-50": {
+    "prefix": "blue-050",
+    "body": "#eff6ff",
+    "description": "Tailwind Color"
+  },
+  "blue-100": {
+    "prefix": "blue-100",
+    "body": "#dbeafe",
+    "description": "Tailwind Color"
+  },
+  "blue-200": {
+    "prefix": "blue-200",
+    "body": "#bfdbfe",
+    "description": "Tailwind Color"
+  },
+  "blue-300": {
+    "prefix": "blue-300",
+    "body": "#93c5fd",
+    "description": "Tailwind Color"
+  },
+  "blue-400": {
+    "prefix": "blue-400",
+    "body": "#60a5fa",
+    "description": "Tailwind Color"
+  },
+  "blue-500": {
+    "prefix": "blue-500",
+    "body": "#3b82f6",
+    "description": "Tailwind Color"
+  },
+  "blue-600": {
+    "prefix": "blue-600",
+    "body": "#2563eb",
+    "description": "Tailwind Color"
+  },
+  "blue-700": {
+    "prefix": "blue-700",
+    "body": "#1d4ed8",
+    "description": "Tailwind Color"
+  },
+  "blue-800": {
+    "prefix": "blue-800",
+    "body": "#1e40af",
+    "description": "Tailwind Color"
+  },
+  "blue-900": {
+    "prefix": "blue-900",
+    "body": "#1e3a8a",
+    "description": "Tailwind Color"
+  },
+  "blue-950": {
+    "prefix": "blue-950",
+    "body": "#172554",
+    "description": "Tailwind Color"
+  },
+  "indigo-50": {
+    "prefix": "indigo-050",
+    "body": "#eef2ff",
+    "description": "Tailwind Color"
+  },
+  "indigo-100": {
+    "prefix": "indigo-100",
+    "body": "#e0e7ff",
+    "description": "Tailwind Color"
+  },
+  "indigo-200": {
+    "prefix": "indigo-200",
+    "body": "#c7d2fe",
+    "description": "Tailwind Color"
+  },
+  "indigo-300": {
+    "prefix": "indigo-300",
+    "body": "#a5b4fc",
+    "description": "Tailwind Color"
+  },
+  "indigo-400": {
+    "prefix": "indigo-400",
+    "body": "#818cf8",
+    "description": "Tailwind Color"
+  },
+  "indigo-500": {
+    "prefix": "indigo-500",
+    "body": "#6366f1",
+    "description": "Tailwind Color"
+  },
+  "indigo-600": {
+    "prefix": "indigo-600",
+    "body": "#4f46e5",
+    "description": "Tailwind Color"
+  },
+  "indigo-700": {
+    "prefix": "indigo-700",
+    "body": "#4338ca",
+    "description": "Tailwind Color"
+  },
+  "indigo-800": {
+    "prefix": "indigo-800",
+    "body": "#3730a3",
+    "description": "Tailwind Color"
+  },
+  "indigo-900": {
+    "prefix": "indigo-900",
+    "body": "#312e81",
+    "description": "Tailwind Color"
+  },
+  "indigo-950": {
+    "prefix": "indigo-950",
+    "body": "#1e1b4b",
+    "description": "Tailwind Color"
+  },
+  "violet-50": {
+    "prefix": "violet-050",
+    "body": "#f5f3ff",
+    "description": "Tailwind Color"
+  },
+  "violet-100": {
+    "prefix": "violet-100",
+    "body": "#ede9fe",
+    "description": "Tailwind Color"
+  },
+  "violet-200": {
+    "prefix": "violet-200",
+    "body": "#ddd6fe",
+    "description": "Tailwind Color"
+  },
+  "violet-300": {
+    "prefix": "violet-300",
+    "body": "#c4b5fd",
+    "description": "Tailwind Color"
+  },
+  "violet-400": {
+    "prefix": "violet-400",
+    "body": "#a78bfa",
+    "description": "Tailwind Color"
+  },
+  "violet-500": {
+    "prefix": "violet-500",
+    "body": "#8b5cf6",
+    "description": "Tailwind Color"
+  },
+  "violet-600": {
+    "prefix": "violet-600",
+    "body": "#7c3aed",
+    "description": "Tailwind Color"
+  },
+  "violet-700": {
+    "prefix": "violet-700",
+    "body": "#6d28d9",
+    "description": "Tailwind Color"
+  },
+  "violet-800": {
+    "prefix": "violet-800",
+    "body": "#5b21b6",
+    "description": "Tailwind Color"
+  },
+  "violet-900": {
+    "prefix": "violet-900",
+    "body": "#4c1d95",
+    "description": "Tailwind Color"
+  },
+  "violet-950": {
+    "prefix": "violet-950",
+    "body": "#2e1065",
+    "description": "Tailwind Color"
+  },
+  "purple-50": {
+    "prefix": "purple-050",
+    "body": "#faf5ff",
+    "description": "Tailwind Color"
+  },
+  "purple-100": {
+    "prefix": "purple-100",
+    "body": "#f3e8ff",
+    "description": "Tailwind Color"
+  },
+  "purple-200": {
+    "prefix": "purple-200",
+    "body": "#e9d5ff",
+    "description": "Tailwind Color"
+  },
+  "purple-300": {
+    "prefix": "purple-300",
+    "body": "#d8b4fe",
+    "description": "Tailwind Color"
+  },
+  "purple-400": {
+    "prefix": "purple-400",
+    "body": "#c084fc",
+    "description": "Tailwind Color"
+  },
+  "purple-500": {
+    "prefix": "purple-500",
+    "body": "#a855f7",
+    "description": "Tailwind Color"
+  },
+  "purple-600": {
+    "prefix": "purple-600",
+    "body": "#9333ea",
+    "description": "Tailwind Color"
+  },
+  "purple-700": {
+    "prefix": "purple-700",
+    "body": "#7e22ce",
+    "description": "Tailwind Color"
+  },
+  "purple-800": {
+    "prefix": "purple-800",
+    "body": "#6b21a8",
+    "description": "Tailwind Color"
+  },
+  "purple-900": {
+    "prefix": "purple-900",
+    "body": "#581c87",
+    "description": "Tailwind Color"
+  },
+  "purple-950": {
+    "prefix": "purple-950",
+    "body": "#3b0764",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-50": {
+    "prefix": "fuchsia-050",
+    "body": "#fdf4ff",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-100": {
+    "prefix": "fuchsia-100",
+    "body": "#fae8ff",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-200": {
+    "prefix": "fuchsia-200",
+    "body": "#f5d0fe",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-300": {
+    "prefix": "fuchsia-300",
+    "body": "#f0abfc",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-400": {
+    "prefix": "fuchsia-400",
+    "body": "#e879f9",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-500": {
+    "prefix": "fuchsia-500",
+    "body": "#d946ef",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-600": {
+    "prefix": "fuchsia-600",
+    "body": "#c026d3",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-700": {
+    "prefix": "fuchsia-700",
+    "body": "#a21caf",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-800": {
+    "prefix": "fuchsia-800",
+    "body": "#86198f",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-900": {
+    "prefix": "fuchsia-900",
+    "body": "#701a75",
+    "description": "Tailwind Color"
+  },
+  "fuchsia-950": {
+    "prefix": "fuchsia-950",
+    "body": "#4a044e",
+    "description": "Tailwind Color"
+  },
+  "pink-50": {
+    "prefix": "pink-050",
+    "body": "#fdf2f8",
+    "description": "Tailwind Color"
+  },
+  "pink-100": {
+    "prefix": "pink-100",
+    "body": "#fce7f3",
+    "description": "Tailwind Color"
+  },
+  "pink-200": {
+    "prefix": "pink-200",
+    "body": "#fbcfe8",
+    "description": "Tailwind Color"
+  },
+  "pink-300": {
+    "prefix": "pink-300",
+    "body": "#f9a8d4",
+    "description": "Tailwind Color"
+  },
+  "pink-400": {
+    "prefix": "pink-400",
+    "body": "#f472b6",
+    "description": "Tailwind Color"
+  },
+  "pink-500": {
+    "prefix": "pink-500",
+    "body": "#ec4899",
+    "description": "Tailwind Color"
+  },
+  "pink-600": {
+    "prefix": "pink-600",
+    "body": "#db2777",
+    "description": "Tailwind Color"
+  },
+  "pink-700": {
+    "prefix": "pink-700",
+    "body": "#be185d",
+    "description": "Tailwind Color"
+  },
+  "pink-800": {
+    "prefix": "pink-800",
+    "body": "#9d174d",
+    "description": "Tailwind Color"
+  },
+  "pink-900": {
+    "prefix": "pink-900",
+    "body": "#831843",
+    "description": "Tailwind Color"
+  },
+  "pink-950": {
+    "prefix": "pink-950",
+    "body": "#500724",
+    "description": "Tailwind Color"
+  },
+  "rose-50": {
+    "prefix": "rose-050",
+    "body": "#fff1f2",
+    "description": "Tailwind Color"
+  },
+  "rose-100": {
+    "prefix": "rose-100",
+    "body": "#ffe4e6",
+    "description": "Tailwind Color"
+  },
+  "rose-200": {
+    "prefix": "rose-200",
+    "body": "#fecdd3",
+    "description": "Tailwind Color"
+  },
+  "rose-300": {
+    "prefix": "rose-300",
+    "body": "#fda4af",
+    "description": "Tailwind Color"
+  },
+  "rose-400": {
+    "prefix": "rose-400",
+    "body": "#fb7185",
+    "description": "Tailwind Color"
+  },
+  "rose-500": {
+    "prefix": "rose-500",
+    "body": "#f43f5e",
+    "description": "Tailwind Color"
+  },
+  "rose-600": {
+    "prefix": "rose-600",
+    "body": "#e11d48",
+    "description": "Tailwind Color"
+  },
+  "rose-700": {
+    "prefix": "rose-700",
+    "body": "#be123c",
+    "description": "Tailwind Color"
+  },
+  "rose-800": {
+    "prefix": "rose-800",
+    "body": "#9f1239",
+    "description": "Tailwind Color"
+  },
+  "rose-900": {
+    "prefix": "rose-900",
+    "body": "#881337",
+    "description": "Tailwind Color"
+  },
+  "rose-950": {
+    "prefix": "rose-950",
+    "body": "#4c0519",
+    "description": "Tailwind Color"
+  }
+}

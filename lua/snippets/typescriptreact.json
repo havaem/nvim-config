@@ -1,0 +1,56 @@
+{
+  "ts component": {
+    "prefix": "tsc",
+    "body": [
+      "interface Props {}",
+      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}(props: Props) {",
+      "    return <div></div>;",
+      "}"
+    ],
+    "description": "ts component"
+  },
+  "ts page": {
+    "prefix": "tsp",
+    "body": [
+      "function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "    return <div></div>;",
+      "}",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};"
+    ],
+    "description": "ts page"
+  },
+  "tsap": {
+    "prefix": "tsap",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}=()=>{return<div></div>};export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
+    ],
+    "description": "tsap"
+  },
+  "tsac": {
+    "prefix": "tsac",
+    "body": [
+      "interface Props{}",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}:React.FC<Props>=()=>{return<div></div>};export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}"
+    ],
+    "description": "tsac"
+  },
+  "forwardRef - snippet": {
+    "prefix": "tsfr",
+    "body": [
+      "import { ComponentPropsWithoutRef, forwardRef } from \"react\";",
+      "",
+      "interface IProps extends ComponentPropsWithoutRef<${1:'div'}>{",
+      "}",
+      "const ${2:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = forwardRef<${3:HTMLDivElement},IProps>(function ${2:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}(props,ref){",
+      "    return (",
+      "        <div ref={ref}></div>",
+      "    )",
+      "})",
+      "export default ${2:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};",
+      "",
+      "",
+      ""
+    ],
+    "description": "forwardRef - snippet"
+  }
+}
