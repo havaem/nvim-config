@@ -89,7 +89,7 @@ map("v", "x", '"_x', defaultOptions)
 map("v", "c", '"_c', defaultOptions)
 
 -- motion
-map("n", "<Tab>", ":+10<cr>", merge(defaultOptions, { desc = "Move 10 lines down" }))
+map("n", "<Tab>", function() vim.cmd ":+10" end, merge(defaultOptions, { desc = "Move 10 lines down" }))
 map("n", "<S-Tab>", function()
   local needMove = vim.fn.line "." - 10
   if needMove < 1 then needMove = 1 end
