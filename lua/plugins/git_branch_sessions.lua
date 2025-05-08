@@ -9,6 +9,7 @@ local get_session_name = function()
   end
 end
 
+if vim.g.vscode then return {} end
 return {
   "AstroNvim/astrocore",
   ---@type AstroCoreOpts
