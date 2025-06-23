@@ -72,7 +72,9 @@ map(
   function() require("astrocore.buffer").nav_to(#vim.api.nvim_list_bufs()) end,
   { desc = "Switch to last buffer" }
 )
-
+-- editor
+-- hover with space K
+map("n", "<Leader>k", function() vim.lsp.buf.hover() end, merge(defaultOptions, { desc = "Show information" }))
 -- variable
 map("n", "<F2>", function() vim.lsp.buf.rename() end, merge(defaultOptions, { desc = "Rename a variable" }))
 
@@ -89,12 +91,16 @@ map("v", "x", '"_x', defaultOptions)
 map("v", "c", '"_c', defaultOptions)
 
 -- motion
-map("n", "<Tab>", function() vim.cmd ":+10" end, merge(defaultOptions, { desc = "Move 10 lines down" }))
-map("n", "<S-Tab>", function()
+map("n", "<S-j>", function() vim.cmd ":+10" end, merge(defaultOptions, { desc = "Move 10 lines down" }))
+map("n", "<S-k>", function()
   local needMove = vim.fn.line "." - 10
   if needMove < 1 then needMove = 1 end
   vim.cmd(":" .. needMove)
 end, merge(defaultOptions, { desc = "Move 10 lines up" }))
+
+-- indent and unindent
+map("n", "<Tab>", ">>", merge(defaultOptions, { desc = "Indent line" }))
+map("n", "<S-Tab>", "<<", merge(defaultOptions, { desc = "Unindent line" }))
 
 map("i", "<C-b>", "<Home>", merge(defaultOptions, { desc = "Move to beginning of line" }))
 map("i", "<C-e>", "<End>", merge(defaultOptions, { desc = "Move to end of line" }))

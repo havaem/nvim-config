@@ -48,24 +48,27 @@ nvim
 
 ## 🗝️ Keymaps
 
-| Keymap           | Description                        | Mode            |
-| ---------------- | ---------------------------------- | --------------- |
-| `<Leader>r`      | Reload AstroCore                   | Normal          |
-| `<A-1>`...`<A-9>`| Switch to buffer 1-9               | Normal/Insert   |
-| `<A-0>`          | Switch to last buffer              | Normal          |
-| `<F2>`           | Rename variable (LSP)              | Normal          |
-| `<Tab>`          | Move 10 lines down                 | Normal          |
-| `<S-Tab>`        | Move 10 lines up                   | Normal          |
-| `<C-b>`          | Move to beginning of line          | Insert          |
-| `<C-e>`          | Move to end of line                | Insert          |
-| `<C-h/j/k/l>`    | Move left/down/up/right            | Insert          |
-| `<A-q>`          | Escape terminal mode               | Terminal        |
-| `<F7>`           | Open new terminal                  | Terminal        |
-| `<F8>`           | Open another terminal              | Normal/Terminal |
-| `p` (visual)     | Paste without yanking selection    | Visual          |
-| `d`, `x`, `c`    | Delete/change without yanking      | Normal/Visual   |
-| `<C-a>`          | Select all text                    | Normal          |
-| ...              | More in [AstroNvim docs][astro-maps] |
+| Keymap            | Description                          | Mode            |
+| ----------------- | ------------------------------------ | --------------- |
+| `<Leader>r`       | Reload AstroCore                     | Normal          |
+| `<A-1>`...`<A-9>` | Switch to buffer 1-9                 | Normal/Insert   |
+| `<A-0>`           | Switch to last buffer                | Normal          |
+| `<F2>`            | Rename variable (LSP)                | Normal          |
+| `<Tab>`           | Indent current line                  | Normal          |
+| `<S-Tab>`         | Un-indent current line               | Normal          |
+| `<S-k>`           | Move 10 lines down                   | Normal          |
+| `<S-j>`           | Move 10 lines up                     | Normal          |
+| `<C-b>`           | Move to beginning of line            | Insert          |
+| `<C-e>`           | Move to end of line                  | Insert          |
+| `<C-h/j/k/l>`     | Move left/down/up/right              | Insert          |
+| `<Leader>k`       | Show information                     | Normal          |
+| `<A-q>`           | Escape terminal mode                 | Terminal        |
+| `<F7>`            | Open new terminal                    | Terminal        |
+| `<F8>`            | Open another terminal                | Normal/Terminal |
+| `p` (visual)      | Paste without yanking selection      | Visual          |
+| `d`, `x`, `c`     | Delete/change without yanking        | Normal/Visual   |
+| `<C-a>`           | Select all text                      | Normal          |
+| ...               | More in [AstroNvim docs][astro-maps] |
 
 ---
 
