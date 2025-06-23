@@ -9,6 +9,8 @@ map(
   function() require("astrocore").reload() end,
   merge(defaultOptions, { desc = "Reload AstroCore" })
 )
+-- save file
+map("i", "<C-S>", function() vim.cmd "write" end, merge(defaultOptions, { desc = "Save file" }))
 
 -- buffer
 map({ "n", "i" }, "<C-t>", "<C-o>", { remap = true })
