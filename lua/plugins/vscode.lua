@@ -31,7 +31,7 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   "vim-repeat",
   "vim-sandwich",
   "yanky.nvim",
-  "matze/vim-move",
+  -- "matze/vim-move",
   -- feel free to open PRs to add more support!
   "vim-visual-multi",
 })
@@ -117,6 +117,10 @@ return {
       maps.n["<Leader>lr"] = function() require("vscode").action "editor.action.rename" end
       maps.n["<Leader>ls"] = function() require("vscode").action "workbench.action.gotoSymbol" end
       maps.n["<Leader>lf"] = function() require("vscode").action "editor.action.formatDocument" end
+
+      -- Line movement
+      maps.n["<A-Up>"] = function() require("vscode").action "editor.action.moveLinesUpAction" end
+      maps.n["<A-Down>"] = function() require("vscode").action "editor.action.moveLinesDownAction" end
     end,
   },
   -- disable colorscheme setting
