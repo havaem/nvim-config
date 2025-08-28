@@ -19,6 +19,7 @@ return {
   -- multi cursor support
   { import = "astrocommunity.editing-support.vim-visual-multi" },
   { import = "astrocommunity.editing-support.treesj" },
+  { import = "astrocommunity.editing-support.bigfile-nvim" },
   -- smart select like alt+shift+arrow in vscode
   { import = "astrocommunity.editing-support.wildfire-nvim" },
   -- edit bigfile faster

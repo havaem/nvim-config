@@ -18,12 +18,10 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   "nvim-ts-context-commentstring",
   -- more known working
   "dial.nvim",
-  "flash.nvim",
-  "flit.nvim",
   "leap.nvim",
+  -- "flash.nvim",
   "mini.ai",
   "mini.comment",
-  "mini.move",
   "mini.pairs",
   "mini.surround",
   "ts-comments.nvim",
@@ -31,7 +29,6 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   "vim-repeat",
   "vim-sandwich",
   "yanky.nvim",
-  -- "matze/vim-move",
   -- feel free to open PRs to add more support!
   "vim-visual-multi",
 })
@@ -119,8 +116,10 @@ return {
       maps.n["<Leader>lf"] = function() require("vscode").action "editor.action.formatDocument" end
 
       -- Line movement
-      maps.n["<A-Up>"] = function() require("vscode").action "editor.action.moveLinesUpAction" end
-      maps.n["<A-Down>"] = function() require("vscode").action "editor.action.moveLinesDownAction" end
+      maps.n["<A-k>"] = function() require("vscode").action "editor.action.moveLinesUpAction" end
+      maps.v["<A-k>"] = function() require("vscode").action "editor.action.moveLinesUpAction" end
+      maps.n["<A-j>"] = function() require("vscode").action "editor.action.moveLinesDownAction" end
+      maps.v["<A-j>"] = function() require("vscode").action "editor.action.moveLinesDownAction" end
     end,
   },
   -- disable colorscheme setting
