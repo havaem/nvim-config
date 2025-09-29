@@ -19,11 +19,12 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   -- more known working
   "dial.nvim",
   "leap.nvim",
-  -- "flash.nvim",
+  "flash.nvim",
   "mini.ai",
   "mini.comment",
   "mini.pairs",
   "mini.surround",
+  "nvim-surround",
   "ts-comments.nvim",
   "vim-easy-align",
   "vim-repeat",

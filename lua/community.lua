@@ -38,10 +38,8 @@ return {
   ------------------------------EDITOR SUPPORT------------------------------
   -- auto restore session
   { import = "astrocommunity.recipes.auto-session-restore" },
-  -- fast move cursor by 's'
-  { import = "astrocommunity.motion.flash-nvim" },
   -- fast surround
-  { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.motion.nvim-surround" },
   -- git diffview
   { import = "astrocommunity.git.diffview-nvim" },
   -- terminal

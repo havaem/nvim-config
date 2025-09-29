@@ -89,7 +89,7 @@ map("n", "X", '"_X', defaultOptions)
 map("n", "c", '"_c', defaultOptions)
 map("n", "C", '"_C', defaultOptions)
 map("v", "d", '"_d', defaultOptions)
-map("v", "x", '"_x', defaultOptions)
+-- map("v", "x", '"_x', defaultOptions)
 map("v", "c", '"_c', defaultOptions)
 
 -- motion
