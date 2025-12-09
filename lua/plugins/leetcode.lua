@@ -44,6 +44,5 @@ return {
   },
   opts = {
     lang = "typescript",
-    image_support = true,
   },
 }

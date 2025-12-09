@@ -36,6 +36,7 @@ return {
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
 
   ------------------------------EDITOR SUPPORT------------------------------
+  { import = "astrocommunity.pack.biome" },
   -- auto restore session
   { import = "astrocommunity.recipes.auto-session-restore" },
   -- fast surround
