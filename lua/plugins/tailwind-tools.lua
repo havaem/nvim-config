@@ -10,8 +10,8 @@ return {
   },
   extension = {
     patterns = {
-      typescriptreact = { "cn%(([^)]+)%)", "clsx%(([^)]+)%)", "tw%(([^)]+)%)", "tw%`([^`]+)%`" },
-      javascript = { "cn%(([^)]+)%)", "clsx%(([^)]+)%)", "tw%(([^)]+)%)", "tw%`([^`]+)%`" },
+      typescriptreact = { "cn%(([^)]+)%)", "clsx%(([^)]+)%)", "tw%(([^)]+)%)", "tw%`([^`]+)%`", "cva%(([^)]+)%)" },
+      javascript = { "cn%(([^)]+)%)", "clsx%(([^)]+)%)", "tw%(([^)]+)%)", "tw%`([^`]+)%`", "cva%(([^)]+)%)" },
     },
   },
   opts = {}, -- your configuration
