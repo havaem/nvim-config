@@ -4,10 +4,12 @@ return {
   ----------------------------------LSP SUPPORT------------------------------
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.oxlint" },
+  { import = "astrocommunity.pack.biome" },
 
   -----------------------------------AI SUPPORT------------------------------
   { import = "astrocommunity.completion.copilot-lua" },
@@ -36,7 +38,6 @@ return {
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
 
   ------------------------------EDITOR SUPPORT------------------------------
-  { import = "astrocommunity.pack.biome" },
   -- auto restore session
   { import = "astrocommunity.recipes.auto-session-restore" },
   -- fast surround
