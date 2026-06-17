@@ -8,12 +8,13 @@
 
 - **AstroNvim v5+**: Modular, extensible, and up-to-date Neovim framework.
 - **Pre-configured LSP**: Out-of-the-box support for Lua, TypeScript, TailwindCSS, HTML, CSS, Markdown, and JSON.
-- **AI Integration**: GitHub Copilot support for AI-powered code completion.
+- **AI Integration**: GitHub Copilot plus OpenCode keymaps/workflows inside Neovim.
 - **Enhanced Editing**: Multi-cursor, fast surround, code movement, undotree, and more.
 - **UI Improvements**: Catppuccin theme, statusline, winbar, and diagnostic enhancements.
-- **Git Integration**: Git blame, diffview, and branch-based session management.
+- **Git Integration**: Git blame and diffview.
 - **Snippets**: Rich VSCode-style snippets for JavaScript, TypeScript, CSS, and Tailwind.
-- **Session Management**: Auto-restore and branch-aware sessions.
+- **Session Management**: Auto-restore sessions.
+- **Modern JS/TS Tooling**: Conditional `none-ls` setup for Oxlint, Dprint, Biome, and Prettier.
 - **Terminal Integration**: ToggleTerm and VSCode-like terminal navigation.
 - **Performance Tweaks**: Large file optimizations and disabled unused plugins.
 
@@ -74,14 +75,14 @@ nvim
 
 ## 📦 Plugins & Customizations
 
-- **LSP & Completion**: AstroNvim, astrolsp, mason, none-ls, copilot, luasnip, treesitter, tailwind-tools
+- **LSP & Completion**: AstroNvim, astrolsp, mason, none-ls, copilot, opencode.nvim, luasnip, treesitter, tailwind-tools
 - **UI**: catppuccin, heirline, nvim-highlight-colors, snacks.nvim dashboard
 - **Editing**: vim-move, undotree, vim-visual-multi, treesj, wildfire, bigfile
-- **Git**: lazygit, git-blame, diffview, branch-based sessions
+- **Git**: lazygit, git-blame, diffview
 - **Terminal**: toggleterm-manager
 - **Snippets**: VSCode-style snippets for JS, TS, CSS, Tailwind ([see snippets](lua/snippets/))
 - **Custom Keymaps**: See [`lua/keymaps.lua`](lua/keymaps.lua)
-- **Session Management**: Auto-restore and git branch sessions
+- **Session Management**: Auto-restore sessions
 
 ---
 
