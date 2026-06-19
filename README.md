@@ -1,12 +1,12 @@
 # Havaem's Neovim Template
 
-**A modern, fast, and feature-rich Neovim configuration powered by [AstroNvim](https://astronvim.com/) v5+**
+**A modern, fast, and feature-rich Neovim configuration powered by [AstroNvim](https://astronvim.com/) v6+**
 
 ---
 
 ## 🚀 Features
 
-- **AstroNvim v5+**: Modular, extensible, and up-to-date Neovim framework.
+- **AstroNvim v6+**: Modular, extensible, and up-to-date Neovim framework.
 - **Pre-configured LSP**: Out-of-the-box support for Lua, TypeScript, TailwindCSS, HTML, CSS, Markdown, and JSON.
 - **AI Integration**: GitHub Copilot plus OpenCode keymaps/workflows inside Neovim.
 - **Enhanced Editing**: Multi-cursor, fast surround, code movement, undotree, and more.

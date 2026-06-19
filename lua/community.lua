@@ -36,6 +36,8 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
   -- show only in current line
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
+  -- minimap
+  { import = "astrocommunity.split-and-window.neominimap-nvim" },
 
   ------------------------------EDITOR SUPPORT------------------------------
   -- auto restore session
@@ -50,4 +52,6 @@ return {
   -- { import = "astrocommunity.utility.hover-nvim" },
   -- show suggest under the current line
   -- { import = "astrocommunity.workflow.precognition-nvim" },
+  -- Clarify and beautify your comments using boxes and lines.
+  { import = "astrocommunity.editing-support.comment-box-nvim" },
 }

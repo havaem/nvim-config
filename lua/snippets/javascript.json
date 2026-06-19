@@ -42,5 +42,12 @@
       "});"
     ],
     "description": "Ready"
+  },
+  "Log": {
+    "prefix": "clg",
+    "body": [
+      "console.log($1)"
+    ],
+    "description": "Log"
   }
 }
