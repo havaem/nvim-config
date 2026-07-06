@@ -18,8 +18,6 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   "nvim-ts-context-commentstring",
   -- more known working
   "dial.nvim",
-  "leap.nvim",
-  "flash.nvim",
   "mini.ai",
   -- "mini.comment",
   -- "mini.pairs",
@@ -121,6 +119,12 @@ return {
       maps.v["<A-k>"] = function() require("vscode").action "editor.action.moveLinesUpAction" end
       maps.n["<A-j>"] = function() require("vscode").action "editor.action.moveLinesDownAction" end
       maps.v["<A-j>"] = function() require("vscode").action "editor.action.moveLinesDownAction" end
+
+      -- Flash nvim vscode extension
+      maps.n["s"] = function() require("vscode").action "flash-vscode.start" end
+      maps.x["s"] = function() require("vscode").action "flash-vscode.startSelection" end
+      maps.n["S"] = function() require("vscode").action "flash-vscode.jump.treesitterSelection" end
+      maps.x["S"] = function() require("vscode").action "flash-vscode.jump.treesitterSelection" end
     end,
   },
   -- disable colorscheme setting
