@@ -30,6 +30,7 @@ vim.tbl_map(function(plugin) enabled[plugin] = true end, {
   "yanky.nvim",
   -- feel free to open PRs to add more support!
   "vim-visual-multi",
+  "todo-comments.nvim",
 })
 local Config = require "lazy.core.config"
 -- disable plugin update checking
@@ -127,8 +128,6 @@ return {
       maps.x["S"] = function() require("vscode").action "flash-vscode.jump.treesitterSelection" end
     end,
   },
-  -- disable colorscheme setting
-  { "AstroNvim/astroui", opts = { colorscheme = false } },
   -- disable treesitter highlighting
   { "nvim-treesitter/nvim-treesitter", opts = { highlight = { enable = false } } },
 }
