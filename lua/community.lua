@@ -18,11 +18,9 @@ return {
   { import = "astrocommunity.editing-support.vim-move" },
   -- show the history of the file
   { import = "astrocommunity.editing-support.undotree" },
-  -- multi cursor support
-  { import = "astrocommunity.editing-support.vim-visual-multi" },
   { import = "astrocommunity.editing-support.treesj" },
   { import = "astrocommunity.editing-support.bigfile-nvim" },
-  -- smart select like alt+shift+arrow in vscode
+  -- smart select like alt+shift+arrow left-right in vscode
   { import = "astrocommunity.editing-support.wildfire-nvim" },
   -- edit bigfile faster
   { import = "astrocommunity.editing-support.bigfile-nvim" },
@@ -42,8 +40,6 @@ return {
   ------------------------------EDITOR SUPPORT------------------------------
   -- auto restore session
   { import = "astrocommunity.recipes.auto-session-restore" },
-  -- fast surround
-  { import = "astrocommunity.motion.nvim-surround" },
   -- git diffview
   { import = "astrocommunity.git.diffview-nvim" },
   -- terminal
