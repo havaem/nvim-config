@@ -1,6 +1,6 @@
 local map = vim.keymap.set
 local merge = require("utils").merge
-local ENV = require("env")
+local ENV = require "env"
 
 local defaultOptions = { noremap = true, silent = true }
 -- editor
@@ -137,7 +137,6 @@ if vim.g.vscode then
 end
 -- ctrl key map
 map("n", "<C-a>", "ggVG", merge(defaultOptions, { desc = "Select all text" }))
-
 
 local super_log = require "custom.super_log"
 map({ "n", "v" }, "<C-A-l>", function() super_log.log_variable() end, merge(defaultOptions, { desc = "Log variable" }))

@@ -36,6 +36,8 @@ return {
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
   -- minimap
   { import = "astrocommunity.split-and-window.neominimap-nvim" },
+  -- animation when enter and leave the buffer
+  { import = "astrocommunity.split-and-window.colorful-winsep-nvim" },
 
   ------------------------------EDITOR SUPPORT------------------------------
   -- auto restore session

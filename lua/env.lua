@@ -1,6 +1,7 @@
 return {
-    -- USERNAME = os.getenv "USER",
-    USERNAME ="HAVAEM",
+  -- USERNAME = os.getenv "USER",
+  USERNAME = "HAVAEM",
 
-    MENU_KEY = "<leader>,",
+  MENU_KEY = "<leader>,",
 }
+
