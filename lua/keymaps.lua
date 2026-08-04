@@ -146,6 +146,12 @@ map(
   function() super_log.log_variable() end,
   merge(defaultOptions, { desc = "Log variable" })
 )
-require("which-key").add {
+map(
+  { "n", "v" },
+  ENV.MENU_KEY .. "L",
+  function() super_log.log_variable(true) end,
+  merge(defaultOptions, { desc = "Log variable with type" })
+)
+if not vim.g.vscode then require("which-key").add {
   { ENV.MENU_KEY, group = "⚡ " .. ENV.USERNAME },
-}
+} end
